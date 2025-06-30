@@ -1,0 +1,17 @@
+html,
+body {
+  background-color: #59356E;
+  background-repeat: no-repeat;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #59356E 10px), repeating-linear-gradient(#2a0c3b55, #2a0c3b);
+  font-family: open-sans, sans-serif;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}

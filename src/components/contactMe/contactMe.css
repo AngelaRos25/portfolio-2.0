@@ -1,0 +1,105 @@
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact-me p {
+  color: white;
+  width: 90%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  color: white;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.message-container {
+  width: 100%;
+}
+
+.message-container button {
+  background-color: #E8AE68;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-container button:hover {
+  background-color: #4e3517;
+}
+
+.form-label {
+  color: #E8AE68;
+  margin: 0 !important;
+  font-weight: 600;
+}
+
+.mb-3 {
+  margin-bottom: 1.5px !important;
+}
+
+
+@media screen and (min-width: 800px) {
+  .contact-me {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-me p {
+    width: 100%;
+  }
+
+  form {
+    width: 50%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 981px) and (max-width: 1950px) {
+  .contact-me {
+    width: 70%;
+    min-height: 45vh;
+    max-height: 90vh;
+    margin: 0 auto;
+  }
+
+  .contact-me p {
+    width: 95%;
+    font-size: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 90%;
+  }
+
+  .form-container {
+    width: 40%;
+    margin-right: 10px;
+  }
+
+  .message-container {
+    width: 40%;
+    margin-left: 10px;
+  }
+
+}

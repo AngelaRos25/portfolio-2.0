@@ -1,0 +1,99 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  min-height: 55vh;
+  max-height: 80vh;
+  margin: 15px 0;
+}
+
+.text {
+  width: 80%;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.text strong {
+  color: #E8AE68;
+  font-style: italic;
+}
+
+.vedi-piu {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.vedi-piu a {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.vedi-piu a:hover {
+  color: #E8AE68;
+  text-decoration: underline;
+}
+
+.vedi-piu p {
+  margin: 0;
+  margin-right: 15px;
+}
+
+.vedi-piu svg {
+  display: inline-block;
+  transform: translateX(20px);
+  transition: 1s;
+  animation: translateX 1s infinite alternate;
+}
+
+@keyframes translateX {
+  from {
+    transform: translateX(20px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    justify-content: center;
+    min-height: 20vh;
+    max-height: 60vh;
+  }
+
+  .text {
+    width: 45%;
+    font-size: 25px;
+  }
+
+  .vedi-piu a {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1450px) {
+  .text {
+    width: 70%;
+    min-height: 20vh;
+    max-height: 90vh;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .content {
+    justify-content: center;
+    min-height: 45vh;
+    max-height: 90vh;
+  }
+}
