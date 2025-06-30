@@ -1,5 +1,5 @@
 import Title from "../components/Title/Title";
-import WorkExperience from "../components/workExperience/workExperience";
+import WorkExperience from "../components/WorkExperience/workExperience";
 import Skills from "../components/skills/skills";
 
 function About() {
