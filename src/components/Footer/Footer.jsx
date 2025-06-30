@@ -6,7 +6,7 @@ import { IoDocumentText } from "react-icons/io5";
 
 import './Footer.css';
 
-function Footer(){
+function Footer() {
   return (
     <footer>
       <div className="icon">

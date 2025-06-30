@@ -40,7 +40,7 @@ export const DataProjects = [
     title: "Urban Horizon",
     description: "Sesto progetto, prevede la realizzazione di un'applicazione Angular che consente di gestire degli utenti e modificare o visualizzare i loro post.",
     code:"https://github.com/Giangy25/urban-horizon",
-    href:"https://urban-horizon.netlify.app/login"
+    href:"https://urban-horizon.netlify.app/"
   },
   {
     image: '/assets/book.png',
