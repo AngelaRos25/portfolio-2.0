@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './Content.css';
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -12,10 +13,10 @@ function Content() {
           Dal 2023, ho iniziato il corso di programmatore front-end su <strong>Start2Impact</strong>. Quando non scrivo codice, mi troverete ad accarezzare i miei gatti, ad allenarmi in palestra, a giocare a videogiochi o a leggere.</p>
       </div>
       <div className='vedi-piu'>
-        <a href="/about">
+        <Link to="/about">
           <p>Vedi di più su di me</p>
           <FaArrowRightLong />
-        </a>
+        </Link>
       </div>
     </div>
   );
