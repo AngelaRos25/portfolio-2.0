@@ -24,8 +24,8 @@
 .a-card {
   display: flex;
   align-items: flex-end;
-  width: 450px;
-  height: 230px;
+  width: 300px;
+  height: 200px;
   position: relative;
   margin: 15px;
   overflow: hidden;
