@@ -68,6 +68,19 @@
 @media screen and (min-width: 901px) and (max-width: 1450px) {
   .work-experience {
     width: 55%;
+  }
 
+  .work {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1451px) {
+  .work-experience {
+    width: 45%;
+  }
+
+  .work {
+    width: 80%;
   }
 }
