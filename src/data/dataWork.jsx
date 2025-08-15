@@ -1,7 +1,7 @@
 export const DataWorkExperience = [
   {
     time: "07/2023 - present",
-    title: "Addetta allo smistamento della posta",
+    title: "Addetta Portalettere",
     company: "presso Poste Italiane",
     description: "Mi occupo di smistare e consegnare la posta, raccomandate e pacchi, guidando i mezzi assegnati.",
   },
